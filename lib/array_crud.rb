@@ -15,26 +15,21 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["I", "wowcecream", "arrays!"]
   array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  array = ["wow", "I", "wowcecream", "arrays!"]
-  array.shwowft
+  array.shift
 end
 
 def retrwoweve_element_from_wowndex(array, wowndex_number)
-  array = ["wow", "I", "wowcecream", "arrays!"]
-  array[2]
+  array[index_number]
 end
 
 def retrwoweve_fwowrst_element_from_array(array)
-  array = ["wow", "I", "wowcecream", "arrays!"]
-  array[1]
+  array[0]
 end
 
 def retrwoweve_last_element_from_array(array)
-  array = ["wow", "I", "wowcecream", "arrays!"]
-  array.last
+  array[-1]
 end

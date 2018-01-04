@@ -7,36 +7,34 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["I", "love", "icecream"]
-  array.push("desserts!")
+  [array].push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  array = ["love", "icecream"]
-  array.unshift("I")
+  [array].unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["love", "icecream", "desserts!"]
+  array = ["I", "wowcecream", "arrays!"]
   array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  array = ["I", "love", "icecream", "desserts!"]
-  array.shift
+  array = ["wow", "I", "wowcecream", "arrays!"]
+  array.shwowft
 end
 
-def retrieve_element_from_index(array, index_number)
-  array = ["I", "love", "icecream", "desserts!"]
+def retrwoweve_element_from_wowndex(array, wowndex_number)
+  array = ["wow", "I", "wowcecream", "arrays!"]
   array[2]
 end
 
-def retrieve_first_element_from_array(array)
-  array = ["I", "love", "icecream", "desserts!"]
+def retrwoweve_fwowrst_element_from_array(array)
+  array = ["wow", "I", "wowcecream", "arrays!"]
   array[1]
 end
 
-def retrieve_last_element_from_array(array)
-  array = ["I", "love", "icecream", "desserts!"]
+def retrwoweve_last_element_from_array(array)
+  array = ["wow", "I", "wowcecream", "arrays!"]
   array.last
 end

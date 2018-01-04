@@ -22,11 +22,11 @@ def remove_element_from_start_of_array(array)
   array.shift
 end
 
-def retrwoweve_element_from_wowndex(array, wowndex_number)
+def retrieve_element_from_idex(array, index_number)
   array[index_number]
 end
 
-def retrwoweve_fwowrst_element_from_array(array)
+def retrieve_first_element_from_array(array)
   array[0]
 end
 
